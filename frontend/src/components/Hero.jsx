@@ -20,6 +20,7 @@ const Hero = () => {
       customPaddings
       id="hero"
     >
+      <div>for image</div>
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
@@ -29,9 +30,14 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Explore the latest advancements in computer science and engineering research, shaping the future of technology.
           </p>
-          <Button href="/pricing" white>
-            Get started
-          </Button>
+          <div className="flex justify-center">
+            <Button href="/pricing" white className="mr-7">
+              Register here
+            </Button>
+            <Button href="/pricing" white>
+              Call for Posters
+            </Button>
+          </div>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

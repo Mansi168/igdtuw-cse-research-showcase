@@ -54,21 +54,34 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Schedule",
     url: "#roadmap",
   },
   {
     id: "4",
+    title: "Speakers",
+    url: "#speakers",
+  },
+  // {
+  //   id: "5",
+  //   title: "Contact Us",
+  //   url: "#roadmap",
+  // },
+  {
+    id: "6",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "7",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
   },
+  
+  
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

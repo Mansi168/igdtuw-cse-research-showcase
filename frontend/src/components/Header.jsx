@@ -39,7 +39,7 @@ const Header = () => {
         {/* <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src={brainwave} width={190} height={40} alt="Brainwave" />
         </a> */}
-        <div className="flex items-center px-5 block w-[12rem] xl:mr-8">IGDTUW</div>
+        <div className="flex items-center text-3xl px-5 block w-[12rem] xl:mr-8">IGDTUW</div>
 
         <nav
           className={`${
@@ -52,7 +52,8 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                style={{ fontSize: '18px' }}
+                className={`block relative font-code uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
@@ -67,6 +68,17 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
+        <Button className="hidden lg:flex" href="#login">
+          Contact us
+        </Button>
+
+        <Button
+          className="ml-auto lg:hidden"
+          px="px-3"
+          onClick={toggleNavigation}
+        >
+          <MenuSvg openNavigation={openNavigation} />
+        </Button>
 
       </div>
     </div>
