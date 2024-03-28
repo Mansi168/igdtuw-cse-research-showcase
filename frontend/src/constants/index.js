@@ -55,7 +55,7 @@ export const navigation = [
   {
     id: "3",
     title: "Schedule",
-    url: "#roadmap",
+    url: "#timeline",
   },
   {
     id: "4",
@@ -304,6 +304,54 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+  },
+];
+
+export const timeline = [
+  {
+    id: "0",
+    title: "Artificial Intelligence",
+    period:"2000-2002",
+    text: "Pioneering intelligence mimicking human-like decision-making for solving complex problems.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+  },
+  {
+    id: "1",
+    title: "Algorithms",
+    period:"2002-2004",
+    text: "Efficiently solving computational problems by designing precise sets of instructions for machines.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Machine Learning",
+    period:"2004-2006",
+    text: "Empowering machines to learn from data and make predictions without explicit programming.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+  },
+  {
+    id: "3",
+    title: "Development",
+    period:"2006-2008",
+    text: "Crafting immersive digital experiences through innovative web technologies and design.",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    light: true,
+  },
+  {
+    id: "4",
+    title: "Blockchain",
+    period:"2008-2010",
+    text: "Revolutionizing trust and transparency by enabling secure and decentralized transactions across networks.",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+  },
+  {
+    id: "5",
+    title: "Deep Learning",
+    period:"2010-2012",
+    text: "Unleashing the power of neural networks to extract patterns and make sense of vast amounts of data.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+
   },
 ];
 

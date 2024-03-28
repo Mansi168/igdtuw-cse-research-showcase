@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 // import Pricing from "./components/Pricing";
-import Roadmap from "./components/Roadmap";
+import Roadmap from "./components/Timeline";
 // import Services from "./components/Services";
 import Speakers from "./components/Speakers";
 
