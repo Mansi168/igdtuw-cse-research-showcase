@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 // import Pricing from "./components/Pricing";
 import Timeline from "./components/Timeline";
 // import Services from "./components/Services";
-import Speakers from "./components/Speakers";
+import Speakers from "./components/Speakers/Speakers";
 
 const App = () => {
   return (
