@@ -147,7 +147,8 @@ button {
   padding: 10px;
   width: 100px;
   text-align:center;
-  border-radius: 10px;
+  border: 1px solid white;
+  border-radius:20px; 
   left: calc(50% - 60px);
   box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
 }
@@ -178,16 +179,16 @@ button {
 .timeline-content:nth-child(even) .timeline-period:before {
   top: calc(100% + 2px);
 }
-.timeline .arrows {
+.arrows {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 20px;
 }
-.timeline .arrows .arrow__prev {
+.arrows .arrow__prev {
   margin-right: 20px;
 }
 
-.timeline .disabled {
+.disabled {
   opacity: 0.5;
 }
 
