@@ -387,3 +387,119 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const speakers = [
+  {
+    id: "0",
+    name: "Sophie Johnson",
+    role: "Software Engineer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.",
+    socials: [
+      {
+        id: "0",
+        title: "Facebook",
+        icon:  facebook,
+        url: "#",
+      },
+      {
+        id: "1",
+        title: "Twitter",
+        icon: twitter,
+        url: "#",
+      },
+      {
+        id: "2",
+        title: "Instagram",
+        icon: instagram,
+        url: "#",
+      },
+    ],
+  },
+  {
+    id: "1",
+    name: "Lucy Sanchez",
+    role: "FrontEnd Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.",
+    socials: [
+      {
+        id: "0",
+        title: "Facebook",
+        icon:  facebook,
+        url: "#",
+      },
+      {
+        id: "1",
+        title: "Twitter",
+        icon: twitter,
+        url: "#",
+      },
+      {
+        id: "2",
+        title: "Instagram",
+        icon: instagram,
+        url: "#",
+      },
+    ],
+  },
+
+  {
+    id: "2",
+    name: "Sophie Johnson",
+    role: "Software Engineer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.",
+    socials: [
+      {
+        id: "0",
+        title: "Facebook",
+        icon:  facebook,
+        url: "#",
+      },
+      {
+        id: "1",
+        title: "Twitter",
+        icon: twitter,
+        url: "#",
+      },
+      {
+        id: "2",
+        title: "Instagram",
+        icon: instagram,
+        url: "#",
+      },
+    ],
+  },
+  {
+    id: "3",
+    name: "Lucy Sanchez",
+    role: "FrontEnd Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1592023031338-ee30ef94abbc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW4lMjBtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, recusandae.",
+    socials: [
+      {
+        id: "0",
+        title: "Facebook",
+        icon:  facebook,
+        url: "#",
+      },
+      {
+        id: "1",
+        title: "Twitter",
+        icon: twitter,
+        url: "#",
+      },
+      {
+        id: "2",
+        title: "Instagram",
+        icon: instagram,
+        url: "#",
+      },
+    ],
+  },
+];

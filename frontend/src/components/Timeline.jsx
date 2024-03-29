@@ -19,7 +19,7 @@ const Timeline = () => {
 
     const tl = timelineRef.current;
     tl.addEventListener("scroll", handleScroll);
-    
+
     return () => {
       tl.removeEventListener("scroll", handleScroll);
     };
@@ -40,13 +40,10 @@ const Timeline = () => {
   return (
     <Section id="timeline">
       <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Our Schedule"
-        />
+        <Heading className="md:max-w-md lg:max-w-2xl" title="Our Schedule" />
         <div className="timeline" ref={timelineRef}>
-          {timeline.map((item) => (
-            <div className="timeline-content">
+          {timeline.map((item, index) => (
+            <div className="timeline-content" key={index}>
               <div className="timeline-period">{item.period}</div>
               <div className="timieline-title">{item.title}</div>
               {item.text}
