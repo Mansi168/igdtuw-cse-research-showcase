@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 400;
     color: #777;
 }
@@ -13,12 +13,19 @@ body {
 
 
 h3 {
-    font-size: 24px;
-    color: #333;
+    font-size: 12rem;
+    color: #fff;
     font-weight: bold;
 }
 
-
+h5 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+#team {
+    box-sizing: border-box;
+}
 
 #team i {
     font-size: 26px;
@@ -31,14 +38,14 @@ h3 {
 
 #team .card {
     border-radius: 0;
-    box-shadow: 5px 5px 15px #e74c3c;
+    box-shadow: 5px 5px 15px #743ad5;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
 }
 
 #team .card:hover {
-    background: #e74c3c;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
     color: #fff;
     border-radius: 5px;
     border: none;
