@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import  { useRef, useState, useEffect } from "react";
 import Heading from "./Heading";
 import Section from "./Section";
 import { timeline } from "../constants";
